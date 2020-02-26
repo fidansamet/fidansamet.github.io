@@ -175,3 +175,11 @@ a {
 a:hover, a:focus, a:active {
   color: #A93226;
 }
+
+.head_a {
+  color: #343a40;
+}
+
+.div_a {
+  color: #868e96;
+}
