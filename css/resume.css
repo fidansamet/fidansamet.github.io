@@ -7,7 +7,7 @@
 body {
     font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
     padding-top: 54px;
-    color: #868e96;
+    color: #4d5156;
 }
 
 @media (min-width: 992px) {
@@ -296,4 +296,20 @@ img {
     .prev, .next, .text {
         font-size: 11px
     }
+}
+
+.p_ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.p_ul li {
+    padding-left: 1em;
+    text-indent: -.7em;
+}
+
+.p_ul li::before {
+    content: "• ";
+    color: #343a40; /* or whatever color you prefer */
 }
